@@ -1,0 +1,6 @@
+name: identity
+runtime: nodejs
+template:
+  config:
+    aws:region:
+      default: us-west-2
