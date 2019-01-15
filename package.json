@@ -1,0 +1,15 @@
+{
+    "name": "identity",
+    "scripts": {
+        "lint": "tslint -c tslint.json '*.ts'",
+        "test": "npm run lint"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "tslint": "^5.12.0"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "latest",
+        "@pulumi/aws": "latest"
+    }
+}
